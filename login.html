@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login Page</title>
+		<link rel="stylesheet" href="main_one.css">
+		<style>
+		h2{
+			color: red;
+		}
+		label{
+			color:white;
+			font-size: 20px;
+		}
+		</style>
+	</head>
+	<body> <!-- background = "perfect_world.jpg"> -->
+
+		<audio controls autoplay>
+			<source src="login.mp3" type="audio/mpeg" />
+		</audio>
+		<div align="center"> 
+		<form action="login.php" method="POST">
+			<h2>Login</h2>
+			<p>
+				<label>Username</label>
+				<input type="text" placeholder="Username" name="username">
+			</p>
+			<p>
+				<label>Password</label>
+				<input type="password" placeholder="Password" name="password">
+			</p>
+			<p>	
+				<input type="submit">
+				<a href="sign_up.html">Create The New Account?</a>
+			</p>
+		</form>
+		</div>
+	</body>
+</html>
