@@ -1,0 +1,8 @@
+body,
+html{
+	min-height:100%;
+}
+body{
+	background-image:url(perfect_world.jpg);
+	background-size: cover;
+}
